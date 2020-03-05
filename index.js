@@ -21,37 +21,49 @@ const obj ={
    getclass1: function() {
           return this.class1;
           },
-   setplace: function(place) {
-           this.place = place;
+   setclass1: function(class1) {
+           this.place = class1;
           },
-   getclass: function() {
+   getage: function() {
           return this.age;
           },
-   setclass: function(age) {
+   setage: function(age) {
            this.age = age;
           },
-   getclass: function() {
+   getdob: function() {
+          return this.dob;
+          },
+   setdob: function(dob) {
+          this.dob= dob;              
+          },
+  getplace: function() {
           return this.place;
           },
-   setclass: function(place) {
-           this.place = place;              
-          },
-  getclass: function() {
-          return this.class1;
-          },
-   setclass: function(class1) {
-           this.class1 = class1;
+   setplace: function(place) {
+          this.place = place;
           }
 }
 console.log(obj.getname())
 obj.setname('hello')
-// name= obj.getName();
+name= obj.getname();
+
 console.log(obj.getid())
-obj.setid('hello');
+obj.setid(7)
+id=obj.getid();
+
 console.log(obj.getplace())
 obj.setplace('hello');
 console.log(obj.getage())
-obj.setage('hello');
+
+console.log(obj.getdob())
+obj.setdob('hello');
+console.log(obj.getdob())
+
+console.log(obj.getplace())
+obj.setplace('hello');
+console.log(obj.getplace())
+
+
 
 
 
