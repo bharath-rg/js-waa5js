@@ -62,6 +62,22 @@ console.log(obj.getdob())
 console.log(obj.getplace())
 obj.setplace('hello');
 console.log(obj.getplace())
+ //------------------------------------//
+
+ function Person(id) {
+   let id = id;
+   this.name = 'hi';
+   this.setId = function(id) {
+     id=id;
+
+   }
+   this.getId = function(){
+     return id;
+   }
+ }
+  const person =new person('10');
+  person.setId(2)
+  console.log(person.getId())
 
 
 
